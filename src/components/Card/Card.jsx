@@ -3,9 +3,7 @@ import styles from './Card.module.css';
 import {Link} from 'react-router-dom'
 import RickMorty from '../../assets/Rick.png'
 
-function Card(props) {
-    const {character,onClose}=props
-
+function Card({character={},onClose}) {
     const [estado, setEstado] = useState(false);
 
     const onDelete = () => {
@@ -36,8 +34,10 @@ function Card(props) {
             if(key!=='Id'){ 
               return ( 
               <h3 className={styles.CardKey}  key={index}  title={character[key]}> 
+                {/*  Muestra los keys execpt Name:  */}
                 {key!=='Name'?`${key}: `:null}
                 <p className={styles.CardValue}>
+                {/* Asigna Enlace solo al Name del Personaje  */}
                 {key==='Name'?<Link to={`/detail/${character.Id}`} className={styles.CardLink}>{character.Name}</Link>:character[key]}
                 </p>
               </h3> )}

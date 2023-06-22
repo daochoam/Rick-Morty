@@ -1,9 +1,8 @@
-import {Component} from "react";
+import PropTypes from 'prop-types';
 
-class Character extends Component {
+class Character {
     constructor(props) {
-        super(props);
-        this.Id= props.id;
+        this.Id = props.id;
         this.Name = props.name;
         this.Image = props.image;
         this.Status = props.status;
@@ -12,7 +11,7 @@ class Character extends Component {
         this.Origin = props.origin;
     }
 
-    static CharacterJSON(obj) {
+    static getCharacter(obj) {
         return new Character({
             id: obj.id,
             name: obj.name,
@@ -23,12 +22,16 @@ class Character extends Component {
             image: obj.image
         });
     }
-
-    static getCharacter(obj) {
-        const objCharacter = this.CharacterJSON(obj);
-        const { props, context, refs, keys, updater, ...Character} = objCharacter;
-        return Character
-      }
 }
 
-export default Character;
+Character.propTypes = {
+    Id: PropTypes.number.isRequired,
+    Name: PropTypes.string.isRequired,
+    Status: PropTypes.string.isRequired,
+    Species: PropTypes.string.isRequired,
+    Gender: PropTypes.string.isRequired,
+    Origin: PropTypes.string.isRequired,
+    Image: PropTypes.string.isRequired,
+};
+
+export default Character

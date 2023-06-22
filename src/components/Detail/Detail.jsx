@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Detail.module.css';
 import { useParams } from 'react-router-dom';
-import ReqCharacters from '../../services/ReqCharacters/ReqCharacters';
+import { getById,getEpisodesByCharacter } from "../../services"
 
 function Detail(props) {
     const {detailId}    = useParams();
-    console.log({detailId})
     const [character,setCharacter] = useState({})
+    const [episode,setEpisode] = useState({})
 
     useEffect(()=>{
-      ReqCharacters.getById(detailId).then((character) =>{
+      getById(detailId).then((character) =>{
         setCharacter(character.data)
       });
+      getEpisodesByCharacter(detailId).then((episode) =>{
+        setEpisode(episode)
+      })
     },[detailId])
 
-    console.log(character)
+    console.log(episode)
     return (
         <div className={styles.Detail}>
                     {Object.keys(character).map((key,index) => {
