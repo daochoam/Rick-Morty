@@ -12,6 +12,11 @@
 # production
 /build
 
+# development
+.vscode
+node_modules
+templates
+
 # misc
 .DS_Store
 .env.local

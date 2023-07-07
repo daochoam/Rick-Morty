@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# VSCODE --> GITHUB --> AWS Lambda
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/dfom89) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ing_daniel8a) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/dfom89) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/dfom89) [![Gmail](https://img.shields.io/badge/Gmail-%23E4400F.svg?logo=Gmail&logoColor=white)](https://dfom89@gmail.com) 
+[![Whatsapp](https://img.shields.io/badge/Whatsapp-%231DA1F2.svg?logo=Whatsapp&logoColor=white)](https://wa.me/573168704626/?text=Hola%20Ingeniero,%20me%20gustaria%20contarte,%20tengo%20un%20proyecto%20que%20te%20puede%20interesar.)[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/dfom89)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://img.shields.io/github/last-commit/daochoam/VSCode-Github-AWSLambda?color=red&logo=git&style=for-the-badge
+https://img.shields.io/github/languages/code-size/daochoam/VSCode-Github-AWSLambda?style=for-the-badge
+https://img.shields.io/github/languages/top/daochoam/VSCode-Github-AWSLambda?logo=typescript&logoColor=white&style=for-the-badge
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/daochoam/RickMorty/blob/master/README.es.md)
 
-## Available Scripts
 
-In the project directory, you can run:
+### Technologies:
 
-### `npm start`
+<div>
+<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/linux.svg" alt="Linux" height="50" /></a>
+<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/react.svg" alt="React" height="50" /></a>
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/html.svg" alt="HTML5" height="50" /></a>
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/css.svg" alt="CSS3" height="50" /></a> 
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/javascript.svg" alt="JavaScript" height="50" /></a>  
+<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/daochoam/Data-Bases/main/icons/nodejs.svg" alt="Node.js" height="50" /></a>  
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**BackEnd Dependencies:**
+* @testing-library/jest-dom => ^5.16.5,
+* @testing-library/react => ^13.4.0,
+* @testing-library/user-event => ^13.5.0,
+* axios => ^1.4.0,
+* react => ^18.2.0,
+* react-dom => ^18.2.0,
+* react-redux => ^8.1.1,
+* react-router-dom => ^6.13.0,
+* react-scripts => 5.0.1,
+* redux => ^4.2.1,
+* redux-thunk => ^2.4.2,
+* web-vitals => ^2.1.4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**FrontEnd Dependencies:**
+* @testing-library/jest-dom => ^5.16.5,
+* @testing-library/react => ^13.4.0,
+* @testing-library/user-event => ^13.5.0,
+* axios => ^1.4.0,
+* react => ^18.2.0,
+* react-dom => ^18.2.0,
+* react-redux => ^8.1.1,
+* react-router-dom => ^6.13.0,
+* react-scripts => 5.0.1,
+* redux => ^4.2.1,
+* redux-thunk => ^2.4.2,
+* web-vitals => ^2.1.4
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Installation the project:
+### Installation Backend:
+### Installation Frontend:
